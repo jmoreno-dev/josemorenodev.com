@@ -47,7 +47,6 @@ function TechSkills() {
                         <h3 className="tech-card-title">Databases & DevOps</h3>
                         <div className="tech-badges">
                             <span className="tech-badge">MySQL</span>
-                            <span className="tech-badge">PostgreSQL</span>
                             <span className="tech-badge">Git & GitHub</span>
                             <span className="tech-badge">Bitbucket</span>
                         </div>
@@ -55,6 +54,8 @@ function TechSkills() {
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
                                 <span className="learning-badge">Docker</span>
+                                <span className="learning-badge">PostgreSQL</span>
+
                             </div>
                         </div>
                     </div>
