@@ -21,7 +21,7 @@ function Hero() {
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2 3l1.5 1.5L10 11l6.5-6.5L18 3v12l-8 4-8-4V3z" fill="currentColor" />
                             </svg>
-                            Contact Me
+                            <a href="#contact">Contact Me</a>
                         </button>
                     </div>
                 </div>

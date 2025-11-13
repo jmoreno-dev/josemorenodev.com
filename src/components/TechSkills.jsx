@@ -12,7 +12,6 @@ function TechSkills() {
                         <h3 className="tech-card-title">Frontend</h3>
                         <div className="tech-badges">
                             <span className="tech-badge">Angular</span>
-                            <span className="tech-badge">React</span>
                             <span className="tech-badge">TypeScript</span>
                             <span className="tech-badge">HTML5</span>
                             <span className="tech-badge">CSS3</span>
@@ -21,8 +20,7 @@ function TechSkills() {
                         <div className="tech-learning">
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
-                                <span className="learning-badge">Next.js</span>
-                                <span className="learning-badge">Tailwind</span>
+                                <span className="learning-badge">React</span>
                             </div>
                         </div>
                     </div>
@@ -34,13 +32,12 @@ function TechSkills() {
                             <span className="tech-badge">Java</span>
                             <span className="tech-badge">Laravel</span>
                             <span className="tech-badge">PHP</span>
-                            <span className="tech-badge">Node.js</span>
                         </div>
                         <div className="tech-learning">
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
                                 <span className="learning-badge">Spring Boot</span>
-                                <span className="learning-badge">Nest.js</span>
+                                <span className="learning-badge">Node.js</span>
                             </div>
                         </div>
                     </div>
@@ -53,7 +50,12 @@ function TechSkills() {
                             <span className="tech-badge">PostgreSQL</span>
                             <span className="tech-badge">Git & GitHub</span>
                             <span className="tech-badge">Bitbucket</span>
-                            <span className="tech-badge">Docker</span>
+                        </div>
+                        <div className="tech-learning">
+                            <p>🌱 Currently</p>
+                            <div className="learning-badges">
+                                <span className="learning-badge">Docker</span>
+                            </div>
                         </div>
                     </div>
 
@@ -63,6 +65,7 @@ function TechSkills() {
                         <div className="tech-badges">
                             <span className="tech-badge">Figma</span>
                             <span className="tech-badge">IntelliJ</span>
+                            <span className="tech-badge">Android Studio</span>
                             <span className="tech-badge">VS Code</span>
                             <span className="tech-badge">Postman</span>
                             <span className="tech-badge">Microsoft Teams</span>
