@@ -4,7 +4,7 @@ function ProfileSection() {
             <div className="section-container">
                 <h2 className="section-title">Professional Profile</h2>
                 <p className="profile-text">
-                    Full stack developer with experience in Angular, React, Laravel, and Java, currently training
+                    Full stack developer with experience in Angular, Laravel, and Java, currently training
                     in React and Spring Boot. I quickly integrate into project and new teams, offering a different
                     perspective thanks to my background in physiotherapy. I stand out for my ability to communicate
                     complex technical concepts in a clear and accessible way, facilitating collaboration between
