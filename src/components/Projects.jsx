@@ -1,6 +1,6 @@
 function Projects() {
     return (
-        <section className="projects-section">
+        <section id="projects" className="projects-section">
             <div className="section-container">
                 <h2 className="section-title">My Projects</h2>
                 <p className="section-subtitle">

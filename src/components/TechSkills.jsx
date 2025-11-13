@@ -1,6 +1,6 @@
 function TechSkills() {
     return (
-        <section className="tech-skills-section">
+        <section id="skills" className="tech-skills-section">
             <div className="section-container">
                 <h2 className="section-title">Technical and Soft Skills</h2>
                 <p className="section-subtitle">

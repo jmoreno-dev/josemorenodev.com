@@ -1,6 +1,6 @@
 function Experience() {
     return (
-        <section className="experience-section">
+        <section id="experience" className="experience-section">
             <div className="section-container">
                 <h2 className="section-title">Work Experience</h2>
                 <div className="experience-card">

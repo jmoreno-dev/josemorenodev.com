@@ -1,6 +1,6 @@
 function ProfileSection() {
     return (
-        <section className="profile-section">
+        <section id="about" className="profile-section">
             <div className="section-container">
                 <h2 className="section-title">Professional Profile</h2>
                 <p className="profile-text">
