@@ -1,0 +1,19 @@
+function ProfileSection() {
+    return (
+        <section className="profile-section">
+            <div className="section-container">
+                <h2 className="section-title">Professional Profile</h2>
+                <p className="profile-text">
+                    Full stack developer with experience in Angular, React, Laravel, and Java, currently training
+                    in React and Spring Boot. I quickly integrate into project and new teams, offering a different
+                    perspective thanks to my background in physiotherapy. I stand out for my ability to communicate
+                    complex technical concepts in a clear and accessible way, facilitating collaboration between
+                    technical and non-technical teams. Always committed to continuous learning and delivering quality
+                    code, which I now apply to full-stack development.
+                </p>
+            </div>
+        </section>
+    )
+}
+
+export default ProfileSection
