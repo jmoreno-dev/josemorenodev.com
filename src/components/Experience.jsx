@@ -6,9 +6,9 @@ function Experience() {
                 <div className="experience-card">
                     <h3 className="experience-title">Full Stack Developer</h3>
                     <div className="experience-details">
-                        <span className="experience-company">📍 Consentio Technologies</span>
-                        <span className="experience-date">📅 January 2024 - Present</span>
-                        <span className="experience-location">📍 Madrid, Spain</span>
+                        <span className="experience-company">📍 Xerintel Internet Technologies</span>
+                        <span className="experience-date">📅 June 2025 - Present</span>
+                        <span className="experience-location">📍 Jerez de la Frontera, Spain</span>
                     </div>
                     <ul className="experience-list">
                         <li>Development and maintenance of web applications using Angular, Laravel and Java</li>
