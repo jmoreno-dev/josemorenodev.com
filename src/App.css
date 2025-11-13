@@ -348,10 +348,21 @@
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-top: 3rem;
+    justify-content: center;
+}
+
+.skills-grid .skill-card {
+    flex: 1 1 calc(33.333% - 2rem);
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.skills-grid .skill-card:nth-child(n+4) {
+    flex: 0 1 calc(33.333% - 2rem);
 }
 
 .skill-card {
@@ -736,7 +747,14 @@
     }
 
     .skills-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-grid .skill-card {
+        flex: 1 1 auto;
+        width: 100%;
+        max-width: 100%;
     }
 
     .tech-grid {
