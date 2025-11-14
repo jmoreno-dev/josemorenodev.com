@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio - José Antonio Moreno Marín
 
-Interactive professional portfolio built with React and Vite, designed to showcase my skills, experience, and projects as a Full Stack Developer.
+Interactive professional portfolio built with React and Vite asssisted by AI, designed to showcase my skills, experience, and projects as a Full Stack Developer.
 
 [![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.2.2-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
