@@ -1,10 +1,19 @@
 # 🚀 Personal Portfolio - José Antonio Moreno Marín
 
-Interactive professional portfolio built with React and Vite asssisted by AI, designed to showcase my skills, experience, and projects as a Full Stack Developer.
+Interactive professional portfolio built with React and Vite, designed to showcase my skills, experience, and projects as a Full Stack Developer.
 
 [![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.2.2-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![EmailJS](https://img.shields.io/badge/EmailJS-4.4.1-00C4CC?style=flat)](https://www.emailjs.com/)
+
+## 🤖 AI-Assisted Structure & Setup
+In line with modern development practices, the foundational structure and initial file scaffolding of this project were generated using Artificial Intelligence (AI).
+
+This approach allowed me to rapidly set up the boilerplate code, demonstrating my ability to:
+
+- Leverage cutting-edge developer tools and AI assistants for increased efficiency.
+
+- Focus quickly on core project logic and unique feature implementation, rather than repetitive setup tasks.
 
 ## ✨ Features
 
