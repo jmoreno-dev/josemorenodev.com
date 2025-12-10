@@ -11,7 +11,7 @@ function Experience() {
                         <span className="experience-location">📍 Jerez de la Frontera, Spain</span>
                     </div>
                     <ul className="experience-list">
-                        <li>Development and maintenance of mobile applications using Ionic, Angular, TypeScript and Laravel</li>
+                        <li>Development and maintenance of mobile applications using Angular, TypeScript, Laravel and Ionic</li>
                         <li>Built front-end applications with REST API calls for real-time visualization</li>
                         <li>Working with Agile methodologies</li>
                         <li>Collaboration with designers and other developers to create intuitive interfaces</li>
