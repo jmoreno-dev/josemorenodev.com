@@ -11,7 +11,7 @@ function Hero() {
                         development cycle with a strong ability to learn and adapt.
                     </p>
                     <div className="hero-buttons">
-                        <a href="/Jose_Antonio_Moreno_Marin_Resume_12-25.pdf" download className="btn-download">
+                        <a href="/Jose_Antonio_Moreno_Marin_01-26_(EN).pdf" download className="btn-download">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10 13L6 9h3V3h2v6h3l-4 4zm-7 4h14v2H3v-2z" fill="currentColor" />
                             </svg>

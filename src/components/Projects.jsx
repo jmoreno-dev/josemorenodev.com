@@ -14,15 +14,15 @@ function Projects() {
                         <div className="project-content">
                             <h3 className="project-title">My GitHub profile</h3>
                             <p className="project-description">
-                                Collection of personal projects and coding experiments showcasing different technologies and programming concepts. From small utilities to full-stack applications (incoming), exploring new frameworks and best practices.
+                                Collection of personal projects and coding experiments showcasing different technologies and programming concepts. From small utilities to full-stack applications, exploring new frameworks and best practices.
                             </p>
                             <div className="project-badges">
-                                <span className="project-badge">React</span>
+                                <span className="project-badge">Angular</span>
                                 <span className="project-badge">Java</span>
                                 <span className="project-badge">Spring Boot</span>
+                                <span className="project-badge">TypeScript</span>
                                 <span className="project-badge">MySQL</span>
-                                <span className="project-badge">Figma</span>
-                                <span className="project-badge">GitHub</span>
+                                <span className="project-badge">React</span>
                             </div>
                             <div className="project-links">
                                 <a href="https://github.com/jmoreno-dev" target="_blank" rel="noopener noreferrer" className="project-link">
@@ -45,17 +45,17 @@ function Projects() {
                                 Development of mobile applications with Ionic, Angular and TypeScript, based on Adobe XD and Figma designs. Business logic and RESTful APIs with Laravel and MySQL.
                             </p>
                             <div className="project-badges">
-                                <span className="project-badge">Ionic</span>
                                 <span className="project-badge">Angular</span>
                                 <span className="project-badge">TypeScript</span>
                                 <span className="project-badge">Laravel</span>
                                 <span className="project-badge">PHP</span>
                                 <span className="project-badge">MySQL</span>
+                                <span className="project-badge">Ionic</span>
                             </div>
                         </div>
                     </div>
 
-                    <div className="project-card">
+                    {/* <div className="project-card">
                         <div className="project-image">
                             <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Full Stack Projects" />
                         </div>
@@ -72,7 +72,7 @@ function Projects() {
                                 <span className="project-badge">Docker</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

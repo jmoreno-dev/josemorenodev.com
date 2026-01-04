@@ -15,14 +15,13 @@ function TechSkills() {
                             <span className="tech-badge">TypeScript</span>
                             <span className="tech-badge">HTML5</span>
                             <span className="tech-badge">CSS3</span>
-                            <span className="tech-badge">JavaScript</span>
                         </div>
-                        <div className="tech-learning">
+                        {/* <div className="tech-learning">
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
                                 <span className="learning-badge">React</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="tech-card">
@@ -30,16 +29,16 @@ function TechSkills() {
                         <h3 className="tech-card-title">Backend</h3>
                         <div className="tech-badges">
                             <span className="tech-badge">Java</span>
-                            <span className="tech-badge">Laravel</span>
+                            <span className="tech-badge">Spring Boot</span>
                             <span className="tech-badge">PHP</span>
+                            <span className="tech-badge">Laravel</span>
                         </div>
-                        <div className="tech-learning">
+                        {/* <div className="tech-learning">
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
-                                <span className="learning-badge">Spring Boot</span>
                                 <span className="learning-badge">Node.js</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="tech-card">
@@ -50,14 +49,13 @@ function TechSkills() {
                             <span className="tech-badge">Git & GitHub</span>
                             <span className="tech-badge">Bitbucket</span>
                         </div>
-                        <div className="tech-learning">
+                        {/* <div className="tech-learning">
                             <p>🌱 Currently</p>
                             <div className="learning-badges">
                                 <span className="learning-badge">Docker</span>
                                 <span className="learning-badge">PostgreSQL</span>
-
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="tech-card">
