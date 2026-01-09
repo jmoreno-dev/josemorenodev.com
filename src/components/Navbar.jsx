@@ -4,7 +4,7 @@ function Navbar() {
             <div className="nav-container">
                 <div className="nav-logo">
                     <span>&lt;/&gt;</span>
-                    <span className="nav-brand">JAMM Developer</span>
+                    <span className="nav-brand">josemorenodev</span>
                 </div>
                 <ul className="nav-links">
                     <li><a href="#about">About</a></li>
