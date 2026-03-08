@@ -1,0 +1,81 @@
+{
+    "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "contactBtn": "Contact Me"
+    },
+    "hero": {
+        "title": "JOSÉ ANTONIO MORENO MARÍN",
+        "subtitle": "Full Stack Developer",
+        "description": "Passionate about technology and software development, focused on creating efficient and maintainable solutions. Experienced in the full development cycle with a strong ability to learn and adapt.",
+        "downloadCV": "Download CV",
+        "contactMe": "Contact Me"
+    },
+    "profile": {
+        "title": "Professional Profile",
+        "description": "Full stack developer with experience in Angular, Java, Spring Boot, TypeScript, and Laravel. I quickly integrate into new projects and teams, offering a different perspective thanks to my background in physiotherapy. I stand out for my ability to communicate complex technical concepts in a clear and accessible way, facilitating collaboration between technical and non-technical teams. Always committed to continuous learning and delivering quality code, which I now apply to full-stack development."
+    },
+    "experience": {
+        "title": "Work Experience",
+        "label": "Professional Experience",
+        "jobTitle": "Full Stack Developer",
+        "company": "Xerintel Internet Technologies",
+        "date": "June 2025 - Present",
+        "location": "Jerez de la Frontera, Spain",
+        "responsibilities": [
+            "Development and maintenance of mobile applications using Angular, TypeScript, Laravel and Ionic",
+            "Built front-end applications with REST API calls for real-time visualization",
+            "Working with Agile methodologies",
+            "Collaboration with designers and other developers to create intuitive interfaces"
+        ]
+    },
+    "skills": {
+        "title": "Technical and Soft Skills",
+        "subtitle": "A summary of my technological, tools, and competencies I work with.",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "databases": "Databases & DevOps",
+        "tools": "Tools & Methodologies",
+        "softSkills": "Soft Skills"
+    },
+    "projects": {
+        "title": "My Projects",
+        "label": "My Work",
+        "subtitle": "Here are some projects I've worked on. Feel free to explore them.",
+        "project1Title": "My GitHub profile",
+        "project1Description": "Collection of personal projects and coding experiments showcasing different technologies and programming concepts. From small utilities to full-stack applications, exploring new frameworks and best practices.",
+        "project2Title": "Mobile Apps for Xerintel",
+        "project2Description": "Development of mobile applications with Ionic, Angular and TypeScript, based on Adobe XD and Figma designs. Business logic and RESTful APIs with Laravel and MySQL."
+    },
+    "transition": {
+        "title": "From Physiotherapy to Code",
+        "subtitle": "My journey as a physiotherapist has shaped me with a unique set of soft skills that are highly valuable in the corporate software development world.",
+        "card1Title": "Analytical & Problem-Solving",
+        "card1Text": "In physiotherapy, I developed diagnostic skills to identify problems, develop treatment plans, and assess progress. Similarly, I use these skills to debug code, analyze system requirements and design effective solutions.",
+        "card2Title": "Interdisciplinary Collaboration",
+        "card2Text": "Worked as part of multidisciplinary healthcare teams, requiring effective communication, collaboration and multitasking. This prepared me to work in software development teams with diverse roles and backgrounds.",
+        "card3Title": "Process & Data Management",
+        "card3Text": "Managed patient records, scheduled appointments, tracked progress, and handled billing. Developed strong organizational skills that translate to software project management, version control, and documentation.",
+        "card4Title": "Technical & Logical Aptitude",
+        "card4Text": "Managed treatment equipment, followed detailed protocols, and applied scientific methods. These skills easily transferred to programming, working with APIs, debugging code, and following software architecture.",
+        "card5Title": "Commitment to Continuous Learning",
+        "card5Text": "Physiotherapy required staying up to date on the latest methods and certifications. In software development, I maintain this same commitment to continuous learning amidst a constantly evolving technological landscape."
+    },
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": "Do you have a question or a proposal?",
+        "button": "Send",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again."
+    },
+    "footer": {
+        "rights": "© 2025 JOSÉ ANTONIO MORENO MARÍN. All rights reserved.",
+        "followMe": "Follow me"
+    }
+}

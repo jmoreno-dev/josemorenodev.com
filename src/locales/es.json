@@ -1,0 +1,81 @@
+{
+    "nav": {
+        "about": "Acerca de",
+        "experience": "Experiencia",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "contactBtn": "Contactarme"
+    },
+    "hero": {
+        "title": "JOSÉ ANTONIO MORENO MARÍN",
+        "subtitle": "Desarrollador Full Stack",
+        "description": "Apasionado por la tecnología y el desarrollo de software, enfocado en crear soluciones eficientes y mantenibles. Experimentado en el ciclo completo de desarrollo con una gran capacidad de aprendizaje y adaptación.",
+        "downloadCV": "Descargar CV",
+        "contactMe": "Contactarme"
+    },
+    "profile": {
+        "title": "Perfil Profesional",
+        "description": "Desarrollador full stack con experiencia en Angular, Java, Spring Boot, TypeScript y Laravel. Me integro rápidamente en nuevos proyectos y equipos, ofreciendo una perspectiva diferente gracias a mi formación en fisioterapia. Destaco por mi capacidad para comunicar conceptos técnicos complejos de forma clara y accesible, facilitando la colaboración entre equipos técnicos y no técnicos. Siempre comprometido con el aprendizaje continuo y la entrega de código de calidad, que ahora aplico al desarrollo full-stack."
+    },
+    "experience": {
+        "title": "Experiencia Laboral",
+        "label": "Experiencia Profesional",
+        "jobTitle": "Desarrollador Full Stack",
+        "company": "Xerintel Internet Technologies",
+        "date": "Junio 2025 - Presente",
+        "location": "Jerez de la Frontera, España",
+        "responsibilities": [
+            "Desarrollo y mantenimiento de aplicaciones móviles con Angular, TypeScript, Laravel e Ionic",
+            "Construcción de aplicaciones frontend con llamadas a REST API para visualización en tiempo real",
+            "Trabajo con metodologías Agile",
+            "Colaboración con diseñadores y otros desarrolladores para crear interfaces intuitivas"
+        ]
+    },
+    "skills": {
+        "title": "Habilidades Técnicas y Blandas",
+        "subtitle": "Un resumen de mis competencias tecnológicas, herramientas y habilidades con las que trabajo.",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "databases": "Bases de Datos y DevOps",
+        "tools": "Herramientas y Metodologías",
+        "softSkills": "Habilidades Blandas"
+    },
+    "projects": {
+        "title": "Mis Proyectos",
+        "label": "Mis Trabajos",
+        "subtitle": "Aquí hay algunos proyectos en los que he trabajado. Siéntete libre de explorarlos.",
+        "project1Title": "Mi perfil en GitHub",
+        "project1Description": "Colección de proyectos personales y experimentos de codificación que muestran diferentes tecnologías y conceptos de programación. Desde pequeñas utilidades hasta aplicaciones full-stack, explorando nuevos frameworks y mejores prácticas.",
+        "project2Title": "Aplicaciones Móviles para Xerintel",
+        "project2Description": "Desarrollo de aplicaciones móviles con Ionic, Angular y TypeScript, basadas en diseños de Adobe XD y Figma. Lógica empresarial y APIs RESTful con Laravel y MySQL."
+    },
+    "transition": {
+        "title": "De la Fisioterapia al Código",
+        "subtitle": "Mi trayectoria como fisioterapeuta me ha moldeado con un conjunto único de habilidades blandas que son muy valiosas en el mundo del desarrollo de software corporativo.",
+        "card1Title": "Análisis y Resolución de Problemas",
+        "card1Text": "En fisioterapia, desarrollé habilidades de diagnóstico para identificar problemas, desarrollar planes de tratamiento y evaluar el progreso. De manera similar, uso estas habilidades para depurar código, analizar requisitos del sistema y diseñar soluciones efectivas.",
+        "card2Title": "Colaboración Interdisciplinaria",
+        "card2Text": "Trabajé como parte de equipos multidisciplinarios de salud, lo que requería comunicación efectiva, colaboración y multitarea. Esto me preparó para trabajar en equipos de desarrollo de software con roles y antecedentes diversos.",
+        "card3Title": "Gestión de Procesos y Datos",
+        "card3Text": "Administré registros de pacientes, programé citas, hice seguimiento del progreso y manejé facturación. Desarrollé sólidas habilidades organizativas que se traducen en gestión de proyectos de software, control de versiones y documentación.",
+        "card4Title": "Aptitud Técnica y Lógica",
+        "card4Text": "Administré equipos de tratamiento, seguí protocolos detallados y apliqué métodos científicos. Estas habilidades se trasladaron fácilmente a la programación, trabajar con APIs, depuración de código y arquitectura de software.",
+        "card5Title": "Compromiso con el Aprendizaje Continuo",
+        "card5Text": "La fisioterapia requería mantenerse actualizado sobre los últimos métodos y certificaciones. En desarrollo de software, mantengo este mismo compromiso con el aprendizaje continuo en medio de un panorama tecnológico en constante evolución."
+    },
+    "contact": {
+        "title": "Ponte en contacto",
+        "subtitle": "¿Tienes una pregunta o una propuesta?",
+        "button": "Enviar",
+        "name": "Nombre",
+        "email": "Correo",
+        "message": "Mensaje",
+        "success": "¡Mensaje enviado exitosamente!",
+        "error": "Error al enviar el mensaje. Por favor, intenta de nuevo."
+    },
+    "footer": {
+        "rights": "© 2025 JOSÉ ANTONIO MORENO MARÍN. Todos los derechos reservados.",
+        "followMe": "Sígueme"
+    }
+}

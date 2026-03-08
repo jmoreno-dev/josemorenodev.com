@@ -1,27 +1,25 @@
+import { useTranslation } from 'react-i18next'
+
 function Hero() {
+    const { t } = useTranslation()
+
     return (
         <main className="hero-section">
             <div className="hero-container">
                 <div className="hero-content">
-                    <h1 className="hero-title">JOSÉ ANTONIO MORENO MARÍN</h1>
-                    <h2 className="hero-subtitle">Full Stack Developer</h2>
+                    <h1 className="hero-title">{t('hero.title')}</h1>
+                    <h2 className="hero-subtitle">{t('hero.subtitle')}</h2>
                     <p className="hero-description">
-                        Passionate about technology and software development, focused on
-                        creating efficient and maintainable solutions. Experienced in the full
-                        development cycle with a strong ability to learn and adapt.
+                        {t('hero.description')}
                     </p>
                     <div className="hero-buttons">
-                        <a href="/Jose_Antonio_Moreno_Marin_01-26_(EN).pdf" download className="btn-download">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 13L6 9h3V3h2v6h3l-4 4zm-7 4h14v2H3v-2z" fill="currentColor" />
-                            </svg>
-                            Download CV
+                        <a href="/Jose_Antonio_Moreno_Marin_03-26 (ES).pdf" download className="btn-download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M10 13 6 9h3V3h2v6h3zm-7 4h14v2H3z" /></svg>
+                            {t('hero.downloadCV')}
                         </a>
                         <button className="btn-contact">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M2 3l1.5 1.5L10 11l6.5-6.5L18 3v12l-8 4-8-4V3z" fill="currentColor" />
-                            </svg>
-                            <a href="#contact">Contact Me</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="m2 3 1.5 1.5L10 11l6.5-6.5L18 3v12l-8 4-8-4z" /></svg>
+                            <a href="#contact">{t('hero.contactMe')}</a>
                         </button>
                     </div>
                 </div>

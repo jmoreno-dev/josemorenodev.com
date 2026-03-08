@@ -69,6 +69,30 @@
     background-color: var(--button-hover);
 }
 
+/* Language Toggle */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lang-toggle {
+    background-color: var(--secondary-bg);
+    color: var(--primary-text);
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.lang-toggle:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
 /* Hero Section */
 .hero-section {
     background-color: var(--primary-bg);

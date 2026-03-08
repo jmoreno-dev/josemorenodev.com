@@ -1,20 +1,25 @@
+import { useTranslation } from 'react-i18next'
+
 function Experience() {
+    const { t, i18n } = useTranslation()
+    const currentLang = i18n.language
+    const responsibilities = t(`experience.responsibilities`, { returnObjects: true })
+
     return (
         <section id="experience" className="experience-section">
             <div className="section-container">
-                <h2 className="section-title">Work Experience</h2>
+                <h2 className="section-title">{t('experience.title')}</h2>
                 <div className="experience-card">
-                    <h3 className="experience-title">Full Stack Developer</h3>
+                    <h3 className="experience-title">{t('experience.jobTitle')}</h3>
                     <div className="experience-details">
-                        <span className="experience-company">🏢 Xerintel Internet Technologies</span>
-                        <span className="experience-date">📅 June 2025 - Present</span>
-                        <span className="experience-location">📍 Jerez de la Frontera, Spain</span>
+                        <span className="experience-company">🏢 {t('experience.company')}</span>
+                        <span className="experience-date">📅 {t('experience.date')}</span>
+                        <span className="experience-location">📍 {t('experience.location')}</span>
                     </div>
                     <ul className="experience-list">
-                        <li>Development and maintenance of mobile applications using Angular, TypeScript, Laravel and Ionic</li>
-                        <li>Built front-end applications with REST API calls for real-time visualization</li>
-                        <li>Working with Agile methodologies</li>
-                        <li>Collaboration with designers and other developers to create intuitive interfaces</li>
+                        {Array.isArray(responsibilities) && responsibilities.map((responsibility, index) => (
+                            <li key={index}>{responsibility}</li>
+                        ))}
                     </ul>
                 </div>
             </div>
