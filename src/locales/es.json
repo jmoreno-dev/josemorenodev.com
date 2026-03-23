@@ -27,7 +27,7 @@
         "location": "Jerez de la Frontera, España",
         "responsibilities": [
             "Desarrollo y mantenimiento de aplicaciones móviles con Angular, TypeScript, Laravel e Ionic",
-            "Construcción de aplicaciones frontend con llamadas a REST API para visualización en tiempo real",
+            "Construcción de API REST en Laravel para la lógica empresarial y gestión de datos",
             "Trabajo con metodologías Agile",
             "Colaboración con diseñadores y otros desarrolladores para crear interfaces intuitivas"
         ]
