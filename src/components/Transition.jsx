@@ -3,6 +3,14 @@ import { useTranslation } from 'react-i18next'
 function Transition() {
     const { t } = useTranslation()
 
+    const transitionCards = [
+        { id: 1, icon: "🧩", title: 'transition.card1Title', text: 'transition.card1Text' },
+        { id: 2, icon: "👥", title: 'transition.card2Title', text: 'transition.card2Text' },
+        { id: 3, icon: "⚙️", title: 'transition.card3Title', text: 'transition.card3Text' },
+        { id: 4, icon: "🎯", title: 'transition.card4Title', text: 'transition.card4Text' },
+        { id: 5, icon: "📚", title: 'transition.card5Title', text: 'transition.card5Text' }
+    ]
+
     return (
         <section className="transition-section">
             <div className="section-container">
@@ -11,41 +19,15 @@ function Transition() {
                     {t('transition.subtitle')}
                 </p>
                 <div className="skills-grid">
-                    <div className="skill-card">
-                        <div className="skill-icon">🧩</div>
-                        <h3 className="skill-card-title">{t('transition.card1Title')}</h3>
-                        <p className="skill-card-text">
-                            {t('transition.card1Text')}
-                        </p>
-                    </div>
-                    <div className="skill-card">
-                        <div className="skill-icon">🎓</div>
-                        <h3 className="skill-card-title">{t('transition.card2Title')}</h3>
-                        <p className="skill-card-text">
-                            {t('transition.card2Text')}
-                        </p>
-                    </div>
-                    <div className="skill-card">
-                        <div className="skill-icon">⚙️</div>
-                        <h3 className="skill-card-title">{t('transition.card3Title')}</h3>
-                        <p className="skill-card-text">
-                            {t('transition.card3Text')}
-                        </p>
-                    </div>
-                    <div className="skill-card">
-                        <div className="skill-icon">🎯</div>
-                        <h3 className="skill-card-title">{t('transition.card4Title')}</h3>
-                        <p className="skill-card-text">
-                            {t('transition.card4Text')}
-                        </p>
-                    </div>
-                    <div className="skill-card">
-                        <div className="skill-icon">📚</div>
-                        <h3 className="skill-card-title">{t('transition.card5Title')}</h3>
-                        <p className="skill-card-text">
-                            {t('transition.card5Text')}
-                        </p>
-                    </div>
+                    {transitionCards.map((card) => (
+                        <div key={card.id} className="skill-card">
+                            <div className="skill-icon">{card.icon}</div>
+                            <h3 className="skill-card-title">{t(card.title)}</h3>
+                            <p className="skill-card-text">
+                                {t(card.text)}
+                            </p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>

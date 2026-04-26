@@ -5,14 +5,14 @@
         "skills": "Habilidades",
         "projects": "Proyectos",
         "contact": "Contacto",
-        "contactBtn": "Contactarme"
+        "contactBtn": "Contacto"
     },
     "hero": {
         "title": "JOSÉ ANTONIO MORENO MARÍN",
         "subtitle": "Desarrollador Full Stack",
-        "description": "Apasionado por la tecnología y el desarrollo de software, enfocado en crear soluciones eficientes y mantenibles. Experimentado en el ciclo completo de desarrollo con una gran capacidad de aprendizaje y adaptación.",
+        "description": "Desarrollador Full Stack con fuerte enfoque en Backend usando Java y Spring Boot. Especializado en crear soluciones escalables y eficientes, aportando valor en cada fase del ciclo de vida del software con una excepcional capacidad de adaptación resolutiva.",
         "downloadCV": "Descargar CV",
-        "contactMe": "Contactarme"
+        "contactMe": "Contacto"
     },
     "profile": {
         "title": "Perfil Profesional",
