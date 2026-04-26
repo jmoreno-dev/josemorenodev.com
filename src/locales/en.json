@@ -45,10 +45,10 @@
         "title": "My Projects",
         "label": "My Work",
         "subtitle": "Here are some projects I've worked on. Feel free to explore them.",
-        "project1Title": "My GitHub profile",
-        "project1Description": "Collection of personal projects and coding experiments showcasing different technologies and programming concepts. From small utilities to full-stack applications, exploring new frameworks and best practices.",
-        "project2Title": "Mobile Apps for Xerintel",
-        "project2Description": "Development of mobile applications with Ionic, Angular and TypeScript, based on Adobe XD and Figma designs. Business logic and RESTful APIs with Laravel and MySQL."
+        "project3Title": "Product management API",
+        "project3Description": "A backend API for product management built with Java and Spring Boot. Features category management, full CRUD operations and API documentation with Swagger. Uses MySQL for data persistence.",
+        "project4Title": "Training API",
+        "project4Description": "A REST API for powerbuilding and fitness coaching management. Features a rich domain model (avoiding the anemic model anti-pattern), zero-trust validations and secure authentication with JWT. Currently in development, with domain models and unit tests already implemented."
     },
     "transition": {
         "title": "From Physiotherapy to Code",

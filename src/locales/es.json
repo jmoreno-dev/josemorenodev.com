@@ -45,10 +45,10 @@
         "title": "Mis Proyectos",
         "label": "Mis Trabajos",
         "subtitle": "Aquí hay algunos proyectos en los que he trabajado. Siéntete libre de explorarlos.",
-        "project1Title": "Mi perfil en GitHub",
-        "project1Description": "Colección de proyectos personales y experimentos de codificación que muestran diferentes tecnologías y conceptos de programación. Desde pequeñas utilidades hasta aplicaciones full-stack, explorando nuevos frameworks y mejores prácticas.",
-        "project2Title": "Aplicaciones Móviles para Xerintel",
-        "project2Description": "Desarrollo de aplicaciones móviles con Ionic, Angular y TypeScript, basadas en diseños de Adobe XD y Figma. Lógica empresarial y APIs RESTful con Laravel y MySQL."
+        "project3Title": "API de gestión de productos",
+        "project3Description": "Una API backend para la gestión de productos desarrollada con Java y Spring Boot. Cuenta con gestión de categorías, operaciones CRUD completas y documentación de API con Swagger. Utiliza MySQL para la persistencia de datos.",
+        "project4Title": "API de entrenamiento",
+        "project4Description": "Una API REST para la gestión de entrenamientos y powerbuilding. Destaca por su modelo de dominio enriquecido (evitando el antipatrón de modelo anémico), validaciones zero-trust y autenticación segura con JWT. Actualmente en desarrollo, con los modelos de dominio y test unitarios ya implementados."
     },
     "transition": {
         "title": "De la Fisioterapia al Código",
