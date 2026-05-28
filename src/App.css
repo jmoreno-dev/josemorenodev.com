@@ -325,12 +325,12 @@
 
 /* Work Experience Section */
 .experience-section {
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     padding: 3rem 0;
 }
 
 .experience-card {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg);
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -385,7 +385,7 @@
 
 /* From Physiotherapy to Code Section */
 .transition-section {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg);
     padding: 3rem 0;
 }
 
@@ -408,7 +408,7 @@
 }
 
 .skill-card {
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);

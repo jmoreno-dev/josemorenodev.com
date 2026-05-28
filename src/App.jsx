@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <ProfileSection />
+      <TechSkills />
       <Experience />
       <Transition />
-      <TechSkills />
       <Projects />
       <Contact />
       <Footer />

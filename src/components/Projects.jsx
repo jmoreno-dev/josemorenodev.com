@@ -9,7 +9,7 @@ function Projects() {
             image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
             titleKey: 'projects.project4Title',
             descKey: 'projects.project4Description',
-            badges: ['Java 21', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'Docker', 'JUnit 5', 'Mockito', 'Flyway', 'Swagger', 'AWS'],
+            badges: ['Java 21', 'Spring Boot 4', 'Spring Security', 'PostgreSQL', 'Docker', 'JUnit 5', 'Mockito', 'Flyway', 'Swagger'],
             githubLink: 'https://github.com/jmoreno-dev/training-api'
         },
         {
@@ -17,7 +17,7 @@ function Projects() {
             image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
             titleKey: 'projects.project3Title',
             descKey: 'projects.project3Description',
-            badges: ['Java', 'Spring Boot', 'MySQL', 'Swagger'],
+            badges: ['Java 17', 'Spring Boot 3', 'MySQL', 'Swagger'],
             githubLink: 'https://github.com/jmoreno-dev/product-manager'
         }
     ]

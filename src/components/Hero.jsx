@@ -13,7 +13,7 @@ function Hero() {
                         {t('hero.description')}
                     </p>
                     <div className="hero-buttons">
-                        <a href="/Jose_Antonio_Moreno_Marin.pdf" download className="btn-download">
+                        <a href="/CV_Jose_Antonio_Moreno_Marin_06-26.pdf" download className="btn-download">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M10 13 6 9h3V3h2v6h3zm-7 4h14v2H3z" /></svg>
                             {t('hero.downloadCV')}
                         </a>

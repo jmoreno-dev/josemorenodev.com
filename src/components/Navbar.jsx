@@ -17,8 +17,8 @@ function Navbar() {
                 </div>
                 <ul className="nav-links">
                     <li><a href="#about">{t('nav.about')}</a></li>
-                    <li><a href="#experience">{t('nav.experience')}</a></li>
                     <li><a href="#skills">{t('nav.skills')}</a></li>
+                    <li><a href="#experience">{t('nav.experience')}</a></li>
                     <li><a href="#projects">{t('nav.projects')}</a></li>
                 </ul>
                 <div className="nav-actions">

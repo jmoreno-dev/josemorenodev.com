@@ -9,27 +9,42 @@
     },
     "hero": {
         "title": "JOSÉ ANTONIO MORENO MARÍN",
-        "subtitle": "Full Stack Developer",
-        "description": "Full Stack Developer with a strong focus on Backend using Java and Spring Boot. Specialized in building scalable and efficient solutions, bringing value to every phase of the software development lifecycle with exceptional problem-solving adaptability.",
+        "subtitle": "Backend developer | Full Stack Developer",
+        "description": "Java backend developer with previous full stack experience using Angular and Laravel. Specialized in building scalable and efficient solutions, bringing value to every phase of the software development lifecycle with exceptional problem-solving adaptability.",
         "downloadCV": "Download CV",
         "contactMe": "Contact Me"
     },
     "profile": {
         "title": "Professional Profile",
-        "description": "Full stack developer with experience in Angular, Java, Spring Boot, TypeScript, and Laravel. I quickly integrate into new projects and teams, offering a different perspective thanks to my background in physiotherapy. I stand out for my ability to communicate complex technical concepts in a clear and accessible way, facilitating collaboration between technical and non-technical teams. Always committed to continuous learning and delivering quality code, which I now apply to full-stack development."
+        "description": "Software engineer with experience designing and developing scalable RESTful APIs, microservices architectures, and containerized deployments with Docker and Kubernetes. Specialized in Java and Spring Boot for backend development, with previous experience in Angular, TypeScript, and Laravel. Proven experience building complex business logic, modeling relational databases, automated testing with JUnit and Mockito, and CI/CD pipelines with Docker and GitHub Actions. I quickly integrate into new teams, bring a different perspective thanks to my physiotherapy background, and focus on Clean Code and system performance."
     },
     "experience": {
         "title": "Work Experience",
         "label": "Professional Experience",
-        "jobTitle": "Full Stack Developer",
-        "company": "Xerintel Internet Technologies",
-        "date": "June 2025 - Present",
-        "location": "Jerez de la Frontera, Spain",
-        "responsibilities": [
-            "Development and maintenance of mobile applications using Angular, TypeScript, Laravel and Ionic",
-            "Built REST APIs in Laravel for business logic and data management",
-            "Working with Agile methodologies",
-            "Collaboration with designers and other developers to create intuitive interfaces"
+        "items": [
+            {
+                "jobTitle": "Backend Developer",
+                "company": "NTT DATA",
+                "date": "May 2026 – Present",
+                "location": "Spain (Remote)",
+                "responsibilities": [
+                    "Backend development with Java 17 in a microservices architecture, using Maven for build and dependency management.",
+                    "Containerization and orchestration of services with Docker and Kubernetes in enterprise environments.",
+                    "Management and optimization of relational databases with MySQL in production environments."
+                ]
+            },
+            {
+                "jobTitle": "Software Engineer",
+                "company": "Xerintel Internet Technologies",
+                "date": "June 2025 – May 2026",
+                "location": "Spain (Remote)",
+                "responsibilities": [
+                    "Design and development of scalable RESTful APIs with Laravel/PHP, defining clear data contracts and optimizing SQL queries in relational databases for high-traffic applications.",
+                    "Frontend development with Angular, TypeScript, and Ionic, ensuring efficient integration between server logic and UI and optimizing HTTP request performance.",
+                    "E2E view in Agile teams: holistic perspective of the software lifecycle, enabling technical communication between the data layer and modular views in cross-platform applications.",
+                    "Android client implementation with Java."
+                ]
+            }
         ]
     },
     "skills": {
@@ -46,7 +61,7 @@
         "label": "My Work",
         "subtitle": "Here are some projects I've worked on. Feel free to explore them.",
         "project3Title": "Product management API",
-        "project3Description": "A backend API for product management built with Java and Spring Boot. Features category management, full CRUD operations and API documentation with Swagger. Uses MySQL for data persistence.",
+        "project3Description": "A backend API for product management built with Java 17 and Spring Boot. Features category management, full CRUD operations and API documentation with Swagger. Uses MySQL for data persistence.",
         "project4Title": "Training API",
         "project4Description": "A REST API for powerbuilding and fitness coaching management. Features a rich domain model (avoiding the anemic model anti-pattern), zero-trust validations and secure authentication with JWT. Currently in development, with domain models and unit tests already implemented."
     },
@@ -55,12 +70,8 @@
         "subtitle": "My journey as a physiotherapist has shaped me with a unique set of soft skills that are highly valuable in the corporate software development world.",
         "card1Title": "Analytical & Problem-Solving",
         "card1Text": "In physiotherapy, I developed diagnostic skills to identify problems, develop treatment plans, and assess progress. Similarly, I use these skills to debug code, analyze system requirements and design effective solutions.",
-        "card2Title": "Interdisciplinary Collaboration",
-        "card2Text": "Worked as part of multidisciplinary healthcare teams, requiring effective communication, collaboration and multitasking. This prepared me to work in software development teams with diverse roles and backgrounds.",
         "card3Title": "Process & Data Management",
         "card3Text": "Managed patient records, scheduled appointments, tracked progress, and handled billing. Developed strong organizational skills that translate to software project management, version control, and documentation.",
-        "card4Title": "Technical & Logical Aptitude",
-        "card4Text": "Managed treatment equipment, followed detailed protocols, and applied scientific methods. These skills easily transferred to programming, working with APIs, debugging code, and following software architecture.",
         "card5Title": "Commitment to Continuous Learning",
         "card5Text": "Physiotherapy required staying up to date on the latest methods and certifications. In software development, I maintain this same commitment to continuous learning amidst a constantly evolving technological landscape."
     },

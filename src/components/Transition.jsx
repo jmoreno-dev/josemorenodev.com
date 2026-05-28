@@ -5,10 +5,8 @@ function Transition() {
 
     const transitionCards = [
         { id: 1, icon: "🧩", title: 'transition.card1Title', text: 'transition.card1Text' },
-        { id: 2, icon: "👥", title: 'transition.card2Title', text: 'transition.card2Text' },
-        { id: 3, icon: "⚙️", title: 'transition.card3Title', text: 'transition.card3Text' },
-        { id: 4, icon: "🎯", title: 'transition.card4Title', text: 'transition.card4Text' },
-        { id: 5, icon: "📚", title: 'transition.card5Title', text: 'transition.card5Text' }
+        { id: 2, icon: "⚙️", title: 'transition.card3Title', text: 'transition.card3Text' },
+        { id: 3, icon: "📚", title: 'transition.card5Title', text: 'transition.card5Text' }
     ]
 
     return (

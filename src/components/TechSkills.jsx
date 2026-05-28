@@ -14,19 +14,19 @@ function TechSkills() {
             id: 'databases',
             icon: '🗄️',
             title: 'skills.databases',
-            badges: ['MySQL', 'Git & GitHub', 'Bitbucket', 'Docker']
+            badges: ['MySQL', 'PostgreSQL', 'Git & GitHub', 'Bitbucket', 'Docker', 'Kubernetes', 'Azure DevOps']
         },
         {
             id: 'frontend',
             icon: '💻',
             title: 'skills.frontend',
-            badges: ['Angular', 'TypeScript', 'HTML5', 'CSS3', 'Ionic']
+            badges: ['Angular', 'TypeScript', 'HTML5', 'CSS3', 'Ionic', 'Thymeleaf']
         },
         {
             id: 'tools',
             icon: '🛠️',
             title: 'skills.tools',
-            badges: ['Figma', 'IntelliJ', 'Android Studio', 'VS Code', 'Postman', 'Microsoft Teams', 'Jira']
+            badges: ['IntelliJ', 'VS Code', 'Postman', 'Jira', 'Confluence']
         },
         {
             id: 'softSkills',
