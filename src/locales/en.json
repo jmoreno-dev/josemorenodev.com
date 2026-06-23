@@ -86,7 +86,7 @@
         "error": "Failed to send message. Please try again."
     },
     "footer": {
-        "rights": "© 2025 JOSÉ ANTONIO MORENO MARÍN. All rights reserved.",
+        "rights": "© {{year}} JOSÉ ANTONIO MORENO MARÍN. All rights reserved.",
         "followMe": "Follow me"
     }
 }

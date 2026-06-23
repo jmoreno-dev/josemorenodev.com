@@ -7,7 +7,7 @@ function Footer() {
         <footer className="footer">
             <div className="footer-container">
                 <p className="footer-text">
-                    <span>&lt;/&gt;</span> {t('footer.rights')}
+                    <span>&lt;/&gt;</span> {t('footer.rights', { year: new Date().getFullYear() })}
                 </p>
                 <div className="footer-links">
                     <a href="https://github.com/jmoreno-dev" target="_blank" rel="noopener noreferrer" className="footer-link" aria-label="GitHub">
