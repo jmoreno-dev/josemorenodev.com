@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import emailjs from '@emailjs/browser'
+import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from '/.env'
 
 function Contact() {
     const form = useRef()
@@ -12,10 +13,10 @@ function Contact() {
         setIsSending(true)
 
         emailjs.sendForm(
-            'service_eukuomd',      // Reemplaza con tu Service ID
-            'template_razjdvn',     // Reemplaza con tu Template ID
+            SERVICE_ID,
+            TEMPLATE_ID,
             form.current,
-            'OABxVZjClViYif4og'       // Reemplaza con tu Public Key
+            PUBLIC_KEY
         ).then(
             () => {
                 alert(t('contact.success'))
