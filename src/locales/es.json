@@ -4,6 +4,7 @@
         "experience": "Experiencia",
         "skills": "Habilidades",
         "projects": "Proyectos",
+        "youtube": "YouTube",
         "contact": "Contacto",
         "contactBtn": "Contacto"
     },
@@ -74,6 +75,26 @@
         "card3Text": "Administré registros de pacientes, programé citas, hice seguimiento del progreso y manejé facturación. Desarrollé sólidas habilidades organizativas que se traducen en gestión de proyectos de software, control de versiones y documentación.",
         "card5Title": "Compromiso con el Aprendizaje Continuo",
         "card5Text": "La fisioterapia requería mantenerse actualizado sobre los últimos métodos y certificaciones. En desarrollo de software, mantengo este mismo compromiso con el aprendizaje continuo en medio de un panorama tecnológico en constante evolución."
+    },
+    "youtube": {
+        "tag": "Canal de YouTube",
+        "title": "Aprende y Conecta en YouTube",
+        "subtitle": "Divulgo sobre desarrollo backend con Java y Spring Boot, arquitectura de software, DevOps y consejos prácticos para profesionales tech.",
+        "badge": "Nuevo contenido todas las semanas",
+        "channelName": "Jose Moreno - Software Engineer",
+        "channelHandle": "@josemorenodevs",
+        "channelDescription": "Tutoriales prácticos paso a paso y explicaciones claras sobre arquitectura de software, buenas prácticas, APIs RESTful y mi experiencia en el sector tecnológico.",
+        "subscribeBtn": "Visitar Canal de YouTube",
+        "watchBtn": "Ver en YouTube",
+        "statsVideos": "+10 Vídeos",
+        "statsTopics": "Java, Spring Boot & Clean Code",
+        "topicsTitle": "Temáticas destacadas del canal:",
+        "topic1Title": "Java 17/21 & Spring Boot",
+        "topic1Desc": "APIs RESTful, arquitectura limpia, JPA, Spring Security y buenas prácticas en producción.",
+        "topic2Title": "DevOps & Microservicios",
+        "topic2Desc": "Contenerización con Docker, despliegues, CI/CD con GitHub Actions y buenas arquitecturas.",
+        "topic3Title": "Consejos y Trayectoria Tech",
+        "topic3Desc": "Transición desde fisioterapia hacia IT, consejos para entrevistas y mentalidad de mejora continua."
     },
     "contact": {
         "title": "Ponte en contacto",

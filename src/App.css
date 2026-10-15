@@ -632,6 +632,344 @@
     color: var(--button-hover);
 }
 
+/* YouTube Section */
+.youtube-section {
+    background-color: var(--secondary-bg);
+    padding: 4rem 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+.youtube-header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto 1.25rem;
+    padding: 0.4rem 1rem;
+    background-color: rgba(239, 68, 68, 0.08);
+    color: #dc2626;
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.youtube-badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+    animation: youtubePulse 2s infinite;
+}
+
+@keyframes youtubePulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.4;
+        transform: scale(0.85);
+    }
+}
+
+.youtube-mini-icon {
+    color: #ef4444;
+}
+
+.youtube-banner-card {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 2.75rem;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.youtube-channel-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.youtube-avatar-ring {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.youtube-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 18%;
+    border: 3px solid #ef4444;
+    box-shadow: 0 0 18px rgba(239, 68, 68, 0.4);
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: auto;
+}
+
+.youtube-live-indicator {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background-color: #ef4444;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0f172a;
+}
+
+.youtube-channel-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.youtube-channel-name {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.youtube-channel-handle {
+    font-size: 0.95rem;
+    color: #94a3b8;
+    font-family: inherit;
+}
+
+.youtube-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+}
+
+.youtube-stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.youtube-stat-pill {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 0.4rem 0.85rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.youtube-stat-pill.highlight {
+    background-color: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.35);
+    color: #fca5a5;
+    font-weight: 600;
+}
+
+.youtube-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.youtube-subscribe-btn {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: #ffffff;
+    padding: 0.85rem 1.8rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 16px rgba(239, 68, 68, 0.4);
+}
+
+.youtube-subscribe-btn:hover {
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(239, 68, 68, 0.55);
+}
+
+.youtube-preview-card {
+    text-decoration: none;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    aspect-ratio: 16 / 9;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.youtube-preview-card:hover {
+    transform: scale(1.02);
+    border-color: #ef4444;
+    box-shadow: 0 12px 30px rgba(239, 68, 68, 0.25);
+}
+
+.youtube-preview-thumbnail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.youtube-thumbnail-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(239, 68, 68, 0.2) 0%, rgba(15, 23, 42, 0.8) 80%);
+}
+
+.youtube-play-btn {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #ef4444;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.7);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 2;
+}
+
+.youtube-preview-card:hover .youtube-play-btn {
+    transform: scale(1.15);
+    background-color: #dc2626;
+}
+
+.youtube-thumbnail-content {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.youtube-preview-tag {
+    background-color: rgba(15, 23, 42, 0.85);
+    padding: 0.3rem 0.65rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fca5a5;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.youtube-preview-title {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Topics Grid */
+.youtube-topics-section {
+    margin-top: 1rem;
+}
+
+.youtube-topics-header {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-text);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.youtube-topics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.youtube-topic-card {
+    background-color: var(--primary-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.youtube-topic-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    border-color: #ef4444;
+}
+
+.youtube-topic-icon {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.youtube-topic-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--primary-text);
+    margin-bottom: 0.6rem;
+}
+
+.youtube-topic-desc {
+    font-size: 0.92rem;
+    color: var(--secondary-text);
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 1.25rem;
+}
+
+.youtube-topic-link {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #dc2626;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: transform 0.2s ease;
+}
+
+.youtube-topic-card:hover .youtube-topic-link {
+    transform: translateX(4px);
+}
+
 /* Contact Section */
 .contact-section {
     background-color: var(--primary-bg);
@@ -777,6 +1115,16 @@
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+    .youtube-banner-card {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .youtube-topics-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -810,6 +1158,10 @@
 
     .tech-grid {
         grid-template-columns: 1fr;
+    }
+
+    .youtube-banner-card {
+        padding: 1.5rem;
     }
 
     .footer-container {

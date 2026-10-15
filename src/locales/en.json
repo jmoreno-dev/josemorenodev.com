@@ -4,6 +4,7 @@
         "experience": "Experience",
         "skills": "Skills",
         "projects": "Projects",
+        "youtube": "YouTube",
         "contact": "Contact",
         "contactBtn": "Contact Me"
     },
@@ -74,6 +75,26 @@
         "card3Text": "Managed patient records, scheduled appointments, tracked progress, and handled billing. Developed strong organizational skills that translate to software project management, version control, and documentation.",
         "card5Title": "Commitment to Continuous Learning",
         "card5Text": "Physiotherapy required staying up to date on the latest methods and certifications. In software development, I maintain this same commitment to continuous learning amidst a constantly evolving technological landscape."
+    },
+    "youtube": {
+        "tag": "YouTube Channel",
+        "title": "Learn & Connect on YouTube",
+        "subtitle": "I share content on backend development with Java & Spring Boot, software architecture, DevOps, and actionable insights for tech professionals.",
+        "badge": "New weekly content",
+        "channelName": "Jose Moreno - Software Engineer",
+        "channelHandle": "@josemorenodevs",
+        "channelDescription": "Practical step-by-step tutorials, live coding, and clear breakdowns of software architecture, best practices, RESTful APIs, and my experience in the tech ecosystem.",
+        "subscribeBtn": "Visit YouTube Channel",
+        "watchBtn": "Watch on YouTube",
+        "statsVideos": "15+ Videos",
+        "statsTopics": "Java, Spring & DevOps",
+        "topicsTitle": "Featured Channel Topics:",
+        "topic1Title": "Java 17/21 & Spring Boot",
+        "topic1Desc": "RESTful APIs, clean architecture, JPA, Spring Security, and production-ready best practices.",
+        "topic2Title": "DevOps & Microservices",
+        "topic2Desc": "Docker containerization, modern deployments, GitHub Actions CI/CD pipelines, and solid architectures.",
+        "topic3Title": "Tips & Career Journey",
+        "topic3Desc": "Transitioning from physiotherapy into IT, interview advice, and continuous improvement mindset."
     },
     "contact": {
         "title": "Get in touch",
