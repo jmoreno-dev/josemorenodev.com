@@ -78,7 +78,9 @@
     "contact": {
         "title": "Get in touch",
         "subtitle": "Do you have a question or a proposal?",
+        "text": "Fill out the form and I'll get back to you as soon as possible.",
         "button": "Send",
+        "sending": "Sending...",
         "name": "Name",
         "email": "Email",
         "message": "Message",

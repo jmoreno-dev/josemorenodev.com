@@ -41,7 +41,7 @@ function Contact() {
                             {t('contact.subtitle')}
                         </p>
                         <p className="contact-text">
-                            Fill out the form and I'll get back to you as soon as possible.
+                            {t('contact.text')}
                         </p>
                     </div>
                     <form className="contact-form" ref={form} onSubmit={sendEmail}>
@@ -58,7 +58,7 @@ function Contact() {
                             <textarea name="message" id="message" rows="5" placeholder={t('contact.message')} required></textarea>
                         </div>
                         <button type="submit" className="submit-btn" disabled={isSending}>
-                            {isSending ? 'Sending...' : t('contact.button')}
+                            {isSending ? t('contact.sending') : t('contact.button')}
                         </button>
                     </form>
                 </div>

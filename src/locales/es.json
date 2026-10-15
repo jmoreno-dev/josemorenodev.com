@@ -78,7 +78,9 @@
     "contact": {
         "title": "Ponte en contacto",
         "subtitle": "¿Tienes una pregunta o una propuesta?",
+        "text": "Rellena el formulario y me pondré en contacto contigo lo antes posible.",
         "button": "Enviar",
+        "sending": "Enviando...",
         "name": "Nombre",
         "email": "Correo",
         "message": "Mensaje",
