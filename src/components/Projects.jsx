@@ -5,6 +5,14 @@ function Projects() {
 
     const projectsList = [
         {
+            id: 'semana-santa-api',
+            image: '/san-fernando.jpg',
+            titleKey: 'projects.project5Title',
+            descKey: 'projects.project5Description',
+            badges: ['Java 25', 'Spring Boot 4', 'PostgreSQL', 'Caffeine Cache', 'Docker', 'MapStruct', 'Swagger'],
+            // githubLink: 'https://github.com/jmoreno-dev/jmoreno-dev-real-time-tracking-api'
+        },
+        {
             id: 'training-api',
             image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
             titleKey: 'projects.project4Title',

@@ -64,7 +64,9 @@
         "project3Title": "API de gestión de productos",
         "project3Description": "Una API backend para la gestión de productos desarrollada con Java 17 y Spring Boot. Cuenta con gestión de categorías, operaciones CRUD completas y documentación de API con Swagger. Utiliza MySQL para la persistencia de datos.",
         "project4Title": "API de entrenamiento",
-        "project4Description": "Una API REST para la gestión de entrenamientos y powerbuilding. Destaca por su modelo de dominio enriquecido (evitando el antipatrón de modelo anémico), validaciones zero-trust y autenticación segura con JWT. Actualmente en desarrollo, con los modelos de dominio y test unitarios ya implementados."
+        "project4Description": "Una API REST para la gestión de entrenamientos y powerbuilding. Destaca por su modelo de dominio enriquecido (evitando el antipatrón de modelo anémico), validaciones zero-trust y autenticación segura con JWT. Actualmente en desarrollo, con los modelos de dominio y test unitarios ya implementados.",
+        "project5Title": "API Semana Santa La Isla",
+        "project5Description": "API REST de alto rendimiento diseñada para dar soporte a una aplicación móvil de Semana Santa en San Fernando (Cádiz). Permite la consulta detallada de hermandades, itinerarios procesionales, horarios, templos y pasos. Desarrollada con Java 25 y Spring Boot 4, con persistencia en PostgreSQL y arquitectura de doble capa de caché (Caffeine en RAM y ETags HTTP) para servir respuestas ultrarrápidas y optimizadas para la semana de pasión."
     },
     "transition": {
         "title": "De la Fisioterapia al Código",

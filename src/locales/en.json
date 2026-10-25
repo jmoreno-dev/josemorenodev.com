@@ -64,7 +64,9 @@
         "project3Title": "Product management API",
         "project3Description": "A backend API for product management built with Java 17 and Spring Boot. Features category management, full CRUD operations and API documentation with Swagger. Uses MySQL for data persistence.",
         "project4Title": "Training API",
-        "project4Description": "A REST API for powerbuilding and fitness coaching management. Features a rich domain model (avoiding the anemic model anti-pattern), zero-trust validations and secure authentication with JWT. Currently in development, with domain models and unit tests already implemented."
+        "project4Description": "A REST API for powerbuilding and fitness coaching management. Features a rich domain model (avoiding the anemic model anti-pattern), zero-trust validations and secure authentication with JWT. Currently in development, with domain models and unit tests already implemented.",
+        "project5Title": "Semana Santa La Isla API",
+        "project5Description": "A high-performance REST API designed to power a Holy Week mobile application for San Fernando (Cádiz). Enables detailed querying of brotherhoods, processional itineraries, schedules, temples, and floats. Built with Java 25 and Spring Boot 4, featuring PostgreSQL persistence and a dual-layer caching strategy (Caffeine in-memory RAM and HTTP ETags) to deliver ultra-fast responses."
     },
     "transition": {
         "title": "From Physiotherapy to Code",
