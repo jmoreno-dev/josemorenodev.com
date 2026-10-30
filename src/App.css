@@ -18,6 +18,7 @@
 }
 
 .nav-logo {
+    text-decoration: none;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -148,6 +149,7 @@
 
 .btn-download,
 .btn-contact {
+    text-decoration: none;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -204,6 +206,8 @@
 /* Hero Image */
 .hero-image {
     display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
 }

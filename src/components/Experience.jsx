@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 
 function Experience() {
     const { t } = useTranslation()
@@ -18,7 +18,13 @@ function Experience() {
                         </div>
                         <ul className="experience-list">
                             {Array.isArray(item.responsibilities) && item.responsibilities.map((responsibility, responsibilityIndex) => (
-                                <li key={`${index}-${responsibilityIndex}`}>{responsibility}</li>
+                                <li key={`${index}-${responsibilityIndex}`}>
+                                    <Trans
+                                        i18nKey={`experience.items.${index}.responsibilities.${responsibilityIndex}`}
+                                        defaults={responsibility}
+                                        components={{ strong: <strong />, em: <em /> }}
+                                    />
+                                </li>
                             ))}
                         </ul>
                     </div>

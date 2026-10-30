@@ -1,40 +1,37 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 function Navbar() {
     const { t, i18n } = useTranslation()
-
-    const toggleLanguage = () => {
-        const newLang = i18n.language === 'es' ? 'en' : 'es'
-        i18n.changeLanguage(newLang)
-    }
-
+    const [isOpen, setIsOpen] = useState(false)
+    const language = i18n.resolvedLanguage || 'es'
+    const closeMenu = () => setIsOpen(false)
     return (
-        <nav className="navbar">
+        <nav className="navbar" aria-label={t('nav.label')} onKeyDown={(event) => {
+            if (event.key === 'Escape') {
+                closeMenu()
+                document.getElementById('menu-toggle')?.focus()
+            }
+        }}>
             <div className="nav-container">
-                <div className="nav-logo">
-                    <span>&lt;/&gt;</span>
+                <a className="nav-logo" href="#home" onClick={closeMenu}>
+                    <span aria-hidden="true">&lt;/&gt;</span>
                     <span className="nav-brand">josemorenodev</span>
-                </div>
-                <ul className="nav-links">
-                    <li><a href="#about">{t('nav.about')}</a></li>
-                    <li><a href="#youtube">{t('nav.youtube')}</a></li>
-                    <li><a href="#skills">{t('nav.skills')}</a></li>
-                    <li><a href="#experience">{t('nav.experience')}</a></li>
-                    <li><a href="#projects">{t('nav.projects')}</a></li>
+                </a>
+                <button id="menu-toggle" className="menu-toggle" aria-expanded={isOpen} aria-controls="nav-links" onClick={() => setIsOpen(!isOpen)}>{t(isOpen ? 'nav.closeMenu' : 'nav.openMenu')}</button>
+                <ul id="nav-links" className={`nav-links ${isOpen ? 'is-open' : ''}`}>
+                    {['projects', 'experience', 'skills', 'about', 'youtube'].map((section) => (
+                        <li key={section}><a href={`#${section}`} onClick={closeMenu}>{t(`nav.${section}`)}</a></li>
+                    ))}
                 </ul>
                 <div className="nav-actions">
-                    <button
-                        onClick={toggleLanguage}
-                        className="lang-toggle"
-                        title={`Cambiar a ${i18n.language === 'es' ? 'English' : 'Español'}`}
-                    >
-                        {i18n.language === 'es' ? '🇬🇧 EN' : '🇪🇸 ES'}
+                    <button onClick={() => i18n.changeLanguage(language === 'es' ? 'en' : 'es')} className="lang-toggle" aria-label={t('nav.changeLanguage')}>
+                        {language === 'es' ? 'EN' : 'ES'}
                     </button>
-                    <a href="#contact" className="nav-contact-btn">{t('nav.contactBtn')}</a>
+                    <a href="#contact" className="nav-contact-btn" onClick={closeMenu}>{t('nav.contactBtn')}</a>
                 </div>
             </div>
         </nav>
     )
 }
-
 export default Navbar

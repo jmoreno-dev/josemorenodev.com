@@ -2,35 +2,27 @@ import { useTranslation } from 'react-i18next'
 
 function Hero() {
     const { t } = useTranslation()
-
     return (
-        <main className="hero-section">
+        <section id="home" className="hero-section" aria-labelledby="hero-title">
             <div className="hero-container">
                 <div className="hero-content">
-                    <h1 className="hero-title">{t('hero.title')}</h1>
-                    <h2 className="hero-subtitle">{t('hero.subtitle')}</h2>
-                    <p className="hero-description">
-                        {t('hero.description')}
-                    </p>
+                    <p className="hero-eyebrow">José Antonio Moreno Marín</p>
+                    <h1 id="hero-title" className="hero-title">{t('hero.title')}</h1>
+                    <p className="hero-subtitle">{t('hero.subtitle')}</p>
+                    <p className="hero-description">{t('hero.description')}</p>
                     <div className="hero-buttons">
-                        <a href="/CV_Jose_Antonio_Moreno_Marin_06-26.pdf" download className="btn-download">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="M10 13 6 9h3V3h2v6h3zm-7 4h14v2H3z" /></svg>
-                            {t('hero.downloadCV')}
-                        </a>
-                        <button className="btn-contact">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path fill="currentColor" d="m2 3 1.5 1.5L10 11l6.5-6.5L18 3v12l-8 4-8-4z" /></svg>
-                            <a href="#contact">{t('hero.contactMe')}</a>
-                        </button>
+                        <a href="#projects" className="btn-download">{t('hero.viewProjects')} <span aria-hidden="true">↗</span></a>
+                        <a href="#contact" className="btn-contact">{t('hero.contactMe')}</a>
                     </div>
+                    <a href="/CV_Jose_Antonio_Moreno_Marin_06-26.pdf" download className="cv-link">{t('hero.downloadCV')} <span aria-hidden="true">↓</span></a>
                 </div>
                 <div className="hero-image">
                     <div className="profile-circle">
-                        <img src="/foto-cv-25.jpg" alt="Profile" />
+                        <img src="/foto-cv-25.jpg" alt="José Antonio Moreno Marín" width="400" height="400" fetchPriority="high" />
                     </div>
                 </div>
             </div>
-        </main>
+        </section>
     )
 }
-
 export default Hero

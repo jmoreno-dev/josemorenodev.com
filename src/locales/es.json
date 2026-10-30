@@ -6,50 +6,57 @@
         "projects": "Proyectos",
         "youtube": "YouTube",
         "contact": "Contacto",
-        "contactBtn": "Contacto"
+        "contactBtn": "Contacto",
+        "skip": "Saltar al contenido",
+        "label": "Navegación principal",
+        "openMenu": "Menú",
+        "closeMenu": "Cerrar",
+        "changeLanguage": "Switch to English"
     },
     "hero": {
-        "title": "JOSÉ ANTONIO MORENO MARÍN",
-        "subtitle": "Backend developer | Full Stack Developer",
-        "description": "Java backend developer con experiencia previa como full stack con Angular y Laravel. Especializado en crear soluciones escalables y eficientes, aportando valor en cada fase del ciclo de vida del software con una excepcional capacidad de adaptación resolutiva.",
+        "title": "Desarrollador backend Java",
+        "subtitle": "Java · Spring Boot · Microservicios · APIs REST",
+        "description": "Especializado en backend Java y Spring Boot, microservicios y APIs REST. En NTT DATA también desarrollo interfaces con Thymeleaf y JavaScript. Experiencia full stack con Angular, Ionic y Laravel.",
         "downloadCV": "Descargar CV",
-        "contactMe": "Contacto"
+        "contactMe": "Contacto",
+        "viewProjects": "Ver proyectos"
     },
     "profile": {
-        "title": "Perfil Profesional",
-        "description": "Ingeniero de software con experiencia en diseño y desarrollo de APIs RESTful escalables, arquitecturas de microservicios y despliegues contenerizados con Docker y Kubernetes. Especializado en Java y Spring Boot para desarrollo backend, con experiencia previa en Angular, TypeScript y Laravel. He trabajado en construcción de lógica de negocio compleja, modelado de bases de datos relacionales, testing automatizado con JUnit y Mockito, y pipelines CI/CD con Docker y GitHub Actions. Me integro rápidamente en nuevos equipos, aporto una perspectiva distinta gracias a mi formación en fisioterapia y estoy orientado a Clean Code y rendimiento del sistema."
+        "title": "Sobre mí",
+        "description": "Antes de dedicarme al software, trabajé como fisioterapeuta. Hoy mi especialidad es el desarrollo backend con Java, con la misma atención al análisis de problemas y a las personas que usan cada solución. Mi trabajo también abarca el frontend con Thymeleaf y JavaScript, conectando los datos y la lógica de negocio con la interfaz. Mi experiencia previa con Angular y Laravel complementa esa visión del flujo completo."
     },
     "experience": {
         "title": "Experiencia Laboral",
         "label": "Experiencia Profesional",
         "items": [
             {
-                "jobTitle": "Backend Developer",
+                "jobTitle": "Backend Developer · Java",
                 "company": "NTT DATA",
                 "date": "Mayo 2026 – Actualidad",
-                "location": "España (Remoto)",
+                "location": "Sevilla (Remoto)",
                 "responsibilities": [
-                    "Desarrollo backend con Java 17 en arquitectura de microservicios, trabajando con Maven como herramienta de construcción y gestión de dependencias.",
-                    "Contenerización y orquestación de servicios con Docker y Kubernetes en entornos empresariales.",
-                    "Gestión y optimización de bases de datos relacionales con MySQL en entornos de producción."
+                    "Desarrollo y mantenimiento de funcionalidades backend con <strong>Java 17 y Spring Boot</strong>, en una arquitectura de <strong>microservicios</strong>.",
+                    "Desarrollo Full Stack de aplicaciones empresariales, implementando interfaces con <strong>Thymeleaf y JavaScript</strong> e integrándolas con la lógica de negocio.",
+                    "Trabajo en entornos de microservicios desplegados sobre <strong>Docker y Kubernetes</strong>, utilizando Maven para la construcción y gestión de dependencias.",
+                    "Desarrollo y optimización de consultas SQL sobre <strong>MySQL</strong>, trabajando con persistencia de datos en aplicaciones empresariales."
                 ]
             },
             {
-                "jobTitle": "Software Engineer",
+                "jobTitle": "Full Stack Developer",
                 "company": "Xerintel Internet Technologies",
                 "date": "Junio 2025 – Mayo 2026",
-                "location": "España (Remoto)",
+                "location": "Jerez de la Frontera, Cádiz (Híbrido)",
                 "responsibilities": [
-                    "Diseño y desarrollo de APIs RESTful escalables con Laravel/PHP, definiendo contratos de datos claros y optimizando consultas SQL en bases de datos relacionales para aplicaciones de alto tráfico.",
-                    "Desarrollo frontend con Angular, TypeScript e Ionic, asegurando integración eficiente entre lógica de servidor e interfaz de usuario y optimizando el rendimiento de peticiones HTTP.",
-                    "Visión E2E en equipos Agile: perspectiva integral del ciclo de vida del software, facilitando comunicación técnica entre capa de datos y vistas modulares en aplicaciones multiplataforma.",
-                    "Implementación de cliente Android con Java."
+                    "Desarrollo y mantenimiento de <strong>APIs REST con Laravel y PHP</strong>, incluyendo implementación de funcionalidades backend y consultas SQL.",
+                    "Desarrollo de interfaces y aplicaciones multiplataforma con <strong>Angular, TypeScript e Ionic</strong>, integradas con servicios backend mediante HTTP.",
+                    "Participación en el desarrollo de aplicaciones móviles con <strong>React Native</strong>, trabajando en la integración con el backend.",
+                    "Implementación de funcionalidades Android con <strong>Java</strong>, colaborando en distintas fases del desarrollo de software."
                 ]
             }
         ]
     },
     "skills": {
-        "title": "Habilidades Técnicas y Blandas",
+        "title": "Tecnologías con las que trabajo",
         "subtitle": "Un resumen de mis competencias tecnológicas, herramientas y habilidades con las que trabajo.",
         "frontend": "Frontend",
         "backend": "Backend",
@@ -60,23 +67,33 @@
     "projects": {
         "title": "Mis Proyectos",
         "label": "Mis Trabajos",
-        "subtitle": "Aquí hay algunos proyectos en los que he trabajado. Siéntete libre de explorarlos.",
+        "subtitle": "APIs, aplicaciones móviles y decisiones de arquitectura en proyectos propios.",
+        "holyWeekAppTitle": "Semana Santa La Isla · App móvil",
+        "holyWeekAppDescription": "Frontend de la app de Semana Santa de San Fernando (Cádiz), desarrollado con React Native y Expo. Permite consultar hermandades, horarios, itinerarios y pasos, filtrar por día y adaptar la apariencia al sistema.",
+        "holyWeekAppDecision": "Caché persistente con MMKV y catálogo local de respaldo para consultar hermandades sin conexión, con actualización de datos desde la API REST cuando está disponible.",
         "project3Title": "API de gestión de productos",
-        "project3Description": "Una API backend para la gestión de productos desarrollada con Java 17 y Spring Boot. Cuenta con gestión de categorías, operaciones CRUD completas y documentación de API con Swagger. Utiliza MySQL para la persistencia de datos.",
+        "project3Description": "API de gestión de productos y categorías, con operaciones CRUD y persistencia en MySQL.",
         "project4Title": "API de entrenamiento",
-        "project4Description": "Una API REST para la gestión de entrenamientos y powerbuilding. Destaca por su modelo de dominio enriquecido (evitando el antipatrón de modelo anémico), validaciones zero-trust y autenticación segura con JWT. Actualmente en desarrollo, con los modelos de dominio y test unitarios ya implementados.",
+        "project4Description": "API para gestionar entrenamientos y powerbuilding, con modelos de dominio y pruebas unitarias implementados.",
         "project5Title": "API Semana Santa La Isla",
-        "project5Description": "API REST de alto rendimiento diseñada para dar soporte a una aplicación móvil de Semana Santa en San Fernando (Cádiz). Permite la consulta detallada de hermandades, itinerarios procesionales, horarios, templos y pasos. Desarrollada con Java 25 y Spring Boot 4, con persistencia en PostgreSQL y arquitectura de doble capa de caché (Caffeine en RAM y ETags HTTP) para servir respuestas ultrarrápidas y optimizadas para la semana de pasión."
+        "project5Description": "Backend para consultar hermandades, itinerarios y horarios de Semana Santa en San Fernando (Cádiz).",
+        "decision": "Decisión técnica",
+        "private": "Repositorio privado",
+        "inProgress": "En desarrollo",
+        "source": "Ver código",
+        "project5Decision": "Caché en memoria con Caffeine y validación HTTP con ETags para reducir consultas y transferencias repetidas.",
+        "project4Decision": "Modelo de dominio enriquecido para mantener las reglas y validaciones junto a los datos que protegen.",
+        "project3Decision": "Documentación con Swagger para facilitar la exploración y prueba de los contratos de la API."
     },
     "transition": {
         "title": "De la Fisioterapia al Código",
-        "subtitle": "Mi trayectoria como fisioterapeuta me ha moldeado con un conjunto único de habilidades blandas que son muy valiosas en el mundo del desarrollo de software corporativo.",
+        "subtitle": "Tres formas en las que esa experiencia se refleja en mi trabajo.",
         "card1Title": "Análisis y Resolución de Problemas",
-        "card1Text": "En fisioterapia, desarrollé habilidades de diagnóstico para identificar problemas, desarrollar planes de tratamiento y evaluar el progreso. De manera similar, uso estas habilidades para depurar código, analizar requisitos del sistema y diseñar soluciones efectivas.",
+        "card1Text": "Descomponer un problema, contrastar hipótesis y comprobar la solución: del diagnóstico clínico a la depuración de software.",
         "card3Title": "Gestión de Procesos y Datos",
-        "card3Text": "Administré registros de pacientes, programé citas, hice seguimiento del progreso y manejé facturación. Desarrollé sólidas habilidades organizativas que se traducen en gestión de proyectos de software, control de versiones y documentación.",
+        "card3Text": "La organización de registros y tratamientos me enseñó a cuidar los datos, los procesos y el seguimiento de cada tarea.",
         "card5Title": "Compromiso con el Aprendizaje Continuo",
-        "card5Text": "La fisioterapia requería mantenerse actualizado sobre los últimos métodos y certificaciones. En desarrollo de software, mantengo este mismo compromiso con el aprendizaje continuo en medio de un panorama tecnológico en constante evolución."
+        "card5Text": "Aprender, poner en práctica y revisar lo aprendido forma parte de mi trabajo, antes en salud y ahora en tecnología."
     },
     "youtube": {
         "tag": "Canal de YouTube",
@@ -88,7 +105,7 @@
         "channelDescription": "Tutoriales prácticos paso a paso y explicaciones claras sobre arquitectura de software, buenas prácticas, APIs RESTful y mi experiencia en el sector tecnológico.",
         "subscribeBtn": "Visitar Canal de YouTube",
         "watchBtn": "Ver en YouTube",
-        "statsVideos": "+10 Vídeos",
+        "statsVideos": "Tutoriales prácticos",
         "statsTopics": "Java, Spring Boot & Clean Code",
         "topicsTitle": "Temáticas destacadas del canal:",
         "topic1Title": "Java 17/21 & Spring Boot",
@@ -108,10 +125,16 @@
         "email": "Correo",
         "message": "Mensaje",
         "success": "¡Mensaje enviado exitosamente!",
-        "error": "Error al enviar el mensaje. Por favor, intenta de nuevo."
+        "error": "Error al enviar el mensaje. Por favor, intenta de nuevo.",
+        "direct": "También puedes contactar conmigo en LinkedIn.",
+        "unavailable": "El formulario no está disponible ahora. Puedes contactar conmigo en LinkedIn."
     },
     "footer": {
         "rights": "© {{year}} JOSÉ ANTONIO MORENO MARÍN. Todos los derechos reservados.",
         "followMe": "Sígueme"
+    },
+    "seo": {
+        "title": "José Moreno | Java Backend Developer",
+        "description": "Portfolio de José Antonio Moreno Marín: especialista en backend Java y Spring Boot, con experiencia full stack en Thymeleaf y JavaScript, proyectos de APIs REST y experiencia profesional."
     }
 }

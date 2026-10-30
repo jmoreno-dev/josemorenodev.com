@@ -20,7 +20,7 @@ function TechSkills() {
             id: 'frontend',
             icon: '💻',
             title: 'skills.frontend',
-            badges: ['Angular', 'TypeScript', 'HTML5', 'CSS3', 'Ionic', 'Thymeleaf']
+            badges: ['Thymeleaf', 'JavaScript', 'Angular', 'TypeScript', 'HTML5', 'CSS3', 'Ionic']
         },
         {
             id: 'tools',
