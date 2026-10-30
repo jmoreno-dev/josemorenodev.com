@@ -4,7 +4,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import ProfileSection from './components/ProfileSection'
 import Experience from './components/Experience'
-import Transition from './components/Transition'
 import TechSkills from './components/TechSkills'
 import Projects from './components/Projects'
 import YouTube from './components/YouTube'
@@ -24,7 +23,6 @@ function App() {
         <Experience />
         <TechSkills />
         <ProfileSection />
-        <Transition />
         <YouTube />
         <Contact />
       </main>

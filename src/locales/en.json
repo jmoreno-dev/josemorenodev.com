@@ -23,7 +23,11 @@
     },
     "profile": {
         "title": "About me",
-        "description": "Before moving into software, I worked as a physiotherapist. Today I specialize in Java backend development, with the same attention to understanding problems and the people using each solution. My work also includes frontend development with Thymeleaf and JavaScript, connecting data and business logic with the interface. My previous Angular and Laravel experience complements that view of the full application flow."
+        "headline": "From physiotherapy to backend development.",
+        "description": "My career began in physiotherapy. I learned to listen, analyze each case and check whether a solution works. That approach stays with me when I develop software.",
+        "today": "Today I specialize in Java backend development at NTT DATA. My frontend and mobile experience helps me understand how data, business logic and the user's experience fit together.",
+        "beyondWork": "I also build personal projects, such as Semana Santa La Isla, and share what I learn on YouTube.",
+        "contact": "Let's talk"
     },
     "experience": {
         "title": "Work Experience",
@@ -103,14 +107,24 @@
         "project3Decision": "Swagger documentation makes API contracts easier to explore and test."
     },
     "transition": {
-        "title": "From Physiotherapy to Code",
-        "subtitle": "Three ways that experience shapes my work.",
-        "card1Title": "Analytical & Problem-Solving",
-        "card1Text": "Break a problem down, test hypotheses and check the outcome: from clinical diagnosis to debugging software.",
-        "card3Title": "Process & Data Management",
-        "card3Text": "Organizing records and treatments taught me to care about data, processes and following tasks through.",
-        "card5Title": "Commitment to Continuous Learning",
-        "card5Text": "Learning, applying and reviewing what I learn is part of my work, first in healthcare and now in technology."
+        "title": "My journey",
+        "steps": [
+            {
+                "period": "The starting point",
+                "title": "Physiotherapy",
+                "description": "Analysis, caring for people and following up on outcomes. The foundation of how I approach problems."
+            },
+            {
+                "period": "June 2025 – May 2026 · Xerintel",
+                "title": "Full stack development",
+                "description": "Experience connecting backend services with web interfaces and mobile applications."
+            },
+            {
+                "period": "Since May 2026 · NTT DATA",
+                "title": "Specializing in Java backend development",
+                "description": "Microservices and REST APIs, contributing to the full development of enterprise applications."
+            }
+        ]
     },
     "youtube": {
         "tag": "YouTube Channel",

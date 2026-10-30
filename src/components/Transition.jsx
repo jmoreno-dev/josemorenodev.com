@@ -2,33 +2,22 @@ import { useTranslation } from 'react-i18next'
 
 function Transition() {
     const { t } = useTranslation()
-
-    const transitionCards = [
-        { id: 1, icon: "🧩", title: 'transition.card1Title', text: 'transition.card1Text' },
-        { id: 2, icon: "⚙️", title: 'transition.card3Title', text: 'transition.card3Text' },
-        { id: 3, icon: "📚", title: 'transition.card5Title', text: 'transition.card5Text' }
-    ]
+    const steps = t('transition.steps', { returnObjects: true })
 
     return (
-        <section className="transition-section">
-            <div className="section-container">
-                <h2 className="section-title">{t('transition.title')}</h2>
-                <p className="section-subtitle">
-                    {t('transition.subtitle')}
-                </p>
-                <div className="skills-grid">
-                    {transitionCards.map((card) => (
-                        <div key={card.id} className="skill-card">
-                            <div className="skill-icon">{card.icon}</div>
-                            <h3 className="skill-card-title">{t(card.title)}</h3>
-                            <p className="skill-card-text">
-                                {t(card.text)}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </section>
+        <div className="about-journey" aria-labelledby="journey-title">
+            <h3 id="journey-title">{t('transition.title')}</h3>
+            <ol className="about-timeline">
+                {Array.isArray(steps) && steps.map((step, index) => (
+                    <li key={step.title} className={index === steps.length - 1 ? 'is-current' : ''}>
+                        <span className="about-step-marker" aria-hidden="true" />
+                        <p className="about-step-period">{step.period}</p>
+                        <h4>{step.title}</h4>
+                        <p className="about-step-description">{step.description}</p>
+                    </li>
+                ))}
+            </ol>
+        </div>
     )
 }
 

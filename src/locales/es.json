@@ -23,7 +23,11 @@
     },
     "profile": {
         "title": "Sobre mí",
-        "description": "Antes de dedicarme al software, trabajé como fisioterapeuta. Hoy mi especialidad es el desarrollo backend con Java, con la misma atención al análisis de problemas y a las personas que usan cada solución. Mi trabajo también abarca el frontend con Thymeleaf y JavaScript, conectando los datos y la lógica de negocio con la interfaz. Mi experiencia previa con Angular y Laravel complementa esa visión del flujo completo."
+        "headline": "De la fisioterapia al backend.",
+        "description": "Mi trayectoria empezó en la fisioterapia. Aprendí a escuchar, analizar cada caso y comprobar si una solución funciona. Esa forma de trabajar sigue conmigo cuando desarrollo software.",
+        "today": "Hoy me especializo en backend Java en NTT DATA. Haber trabajado también en frontend y móvil me ayuda a entender cómo encajan los datos, la lógica de negocio y la experiencia de quien usa la aplicación.",
+        "beyondWork": "También desarrollo proyectos propios, como Semana Santa La Isla, y comparto lo que aprendo en YouTube.",
+        "contact": "Hablemos"
     },
     "experience": {
         "title": "Experiencia Laboral",
@@ -103,14 +107,24 @@
         "project3Decision": "Documentación con Swagger para facilitar la exploración y prueba de los contratos de la API."
     },
     "transition": {
-        "title": "De la Fisioterapia al Código",
-        "subtitle": "Tres formas en las que esa experiencia se refleja en mi trabajo.",
-        "card1Title": "Análisis y Resolución de Problemas",
-        "card1Text": "Descomponer un problema, contrastar hipótesis y comprobar la solución: del diagnóstico clínico a la depuración de software.",
-        "card3Title": "Gestión de Procesos y Datos",
-        "card3Text": "La organización de registros y tratamientos me enseñó a cuidar los datos, los procesos y el seguimiento de cada tarea.",
-        "card5Title": "Compromiso con el Aprendizaje Continuo",
-        "card5Text": "Aprender, poner en práctica y revisar lo aprendido forma parte de mi trabajo, antes en salud y ahora en tecnología."
+        "title": "Mi recorrido",
+        "steps": [
+            {
+                "period": "El punto de partida",
+                "title": "Fisioterapia",
+                "description": "Análisis, atención a las personas y seguimiento de resultados. La base de mi forma de abordar los problemas."
+            },
+            {
+                "period": "Junio 2025 – Mayo 2026 · Xerintel",
+                "title": "Desarrollo full stack",
+                "description": "Experiencia conectando servicios backend con interfaces web y aplicaciones móviles."
+            },
+            {
+                "period": "Desde mayo de 2026 · NTT DATA",
+                "title": "Especialización en backend Java",
+                "description": "Microservicios y APIs REST, con participación en el desarrollo completo de aplicaciones empresariales."
+            }
+        ]
     },
     "youtube": {
         "tag": "Canal de YouTube",
