@@ -47,8 +47,6 @@
 .transition-section .section-title { font-size: 1.4rem; }
 .skill-card { border-top: 2px solid #b5d7cb; box-shadow: none; background: var(--primary-bg); }
 .skills-grid .skill-card { min-width: 0; }
-.youtube-section { padding-block: 1rem; }
-.youtube-avatar { width: 80px; height: 80px; }
 .form-status { min-height: 1.5rem; margin-top: 1rem; color: var(--secondary-text); line-height: 1.6; font-size: .9rem; }
 .form-status.success { color: #166534; }
 .form-status.error { color: #b91c1c; }
@@ -83,8 +81,6 @@
     .project-diagram { min-height: 220px; gap: 0; }
     .experience-card { padding: 1.5rem; }
     .skills-grid { gap: 1rem; }
-    .youtube-channel-name { font-size: 1.15rem; }
-    .youtube-subscribe-btn { padding-inline: 1rem; font-size: .9rem; }
 }
 @media (max-width: 440px) {
     .nav-container { gap: .5rem; padding-inline: 1rem; }
@@ -94,5 +90,4 @@
     .lang-toggle { padding: .6rem; min-height: 44px; }
     .nav-contact-btn { padding: .7rem .6rem; font-size: .8rem; }
     .section-container { padding-inline: 1.25rem; }
-    .youtube-channel-header { gap: .75rem; }
 }
