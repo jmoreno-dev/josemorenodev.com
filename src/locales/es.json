@@ -32,29 +32,34 @@
     "experience": {
         "title": "Experiencia Laboral",
         "label": "Experiencia Profesional",
+        "subtitle": "Experiencia full stack en web y móvil, con especialización actual en backend Java.",
+        "current": "Actualidad",
         "items": [
             {
                 "jobTitle": "Backend Developer · Java",
                 "company": "NTT DATA",
+                "current": true,
+                "focus": "Backend Java · Participación full stack",
                 "date": "Mayo 2026 – Actualidad",
                 "location": "Sevilla (Remoto)",
                 "responsibilities": [
-                    "Desarrollo y mantenimiento de funcionalidades backend con <strong>Java 17 y Spring Boot</strong>, en una arquitectura de <strong>microservicios</strong>.",
-                    "Desarrollo Full Stack de aplicaciones empresariales, implementando interfaces con <strong>Thymeleaf y JavaScript</strong> e integrándolas con la lógica de negocio.",
-                    "Trabajo en entornos de microservicios desplegados sobre <strong>Docker y Kubernetes</strong>, utilizando Maven para la construcción y gestión de dependencias.",
-                    "Desarrollo y optimización de consultas SQL sobre <strong>MySQL</strong>, trabajando con persistencia de datos en aplicaciones empresariales."
+                    "Desarrollo y mantenimiento de backend con <strong>Java 17 y Spring Boot</strong> en arquitectura de <strong>microservicios</strong>.",
+                    "Interfaces con <strong>Thymeleaf y JavaScript</strong> integradas con la lógica de negocio de aplicaciones empresariales.",
+                    "Trabajo con microservicios desplegados en <strong>Docker y Kubernetes</strong>, y construcción y gestión de dependencias con Maven.",
+                    "Desarrollo y optimización de consultas SQL y persistencia de datos con <strong>MySQL</strong>."
                 ]
             },
             {
                 "jobTitle": "Full Stack Developer",
                 "company": "Xerintel Internet Technologies",
+                "focus": "Full stack · Web y móvil",
                 "date": "Junio 2025 – Mayo 2026",
                 "location": "Jerez de la Frontera, Cádiz (Híbrido)",
                 "responsibilities": [
-                    "Desarrollo y mantenimiento de <strong>APIs REST con Laravel y PHP</strong>, incluyendo implementación de funcionalidades backend y consultas SQL.",
-                    "Desarrollo de interfaces y aplicaciones multiplataforma con <strong>Angular, TypeScript e Ionic</strong>, integradas con servicios backend mediante HTTP.",
-                    "Participación en el desarrollo de aplicaciones móviles con <strong>React Native</strong>, trabajando en la integración con el backend.",
-                    "Implementación de funcionalidades Android con <strong>Java</strong>, colaborando en distintas fases del desarrollo de software."
+                    "Desarrollo y mantenimiento de <strong>APIs REST con Laravel y PHP</strong>, funcionalidades backend y consultas SQL.",
+                    "Interfaces y aplicaciones multiplataforma con <strong>Angular, TypeScript e Ionic</strong>, conectadas al backend mediante HTTP.",
+                    "Participación en aplicaciones móviles con <strong>React Native</strong> e integración con el backend.",
+                    "Implementación de funcionalidades Android con <strong>Java</strong> y colaboración en distintas fases del desarrollo."
                 ]
             }
         ]

@@ -312,66 +312,6 @@
     line-height: 1.6;
 }
 
-/* Work Experience Section */
-.experience-section {
-    background-color: var(--secondary-bg);
-    padding: 3rem 0;
-}
-
-.experience-card {
-    background-color: var(--primary-bg);
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    max-width: 900px;
-    margin: 2rem auto;
-}
-
-.experience-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-text);
-    margin-bottom: 1rem;
-}
-
-.experience-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-    color: var(--secondary-text);
-}
-
-.experience-company,
-.experience-date,
-.experience-location {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.experience-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.experience-list li {
-    position: relative;
-    padding-left: 1.5rem;
-    margin-bottom: 0.8rem;
-    color: var(--secondary-text);
-    line-height: 1.6;
-}
-
-.experience-list li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: var(--accent-color);
-    font-weight: bold;
-}
-
 /* My Projects Section */
 .projects-section {
     background-color: var(--secondary-bg);
@@ -639,10 +579,6 @@
         font-size: 1rem;
     }
 
-    .experience-details {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
 
 
 

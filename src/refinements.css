@@ -38,7 +38,6 @@
 .project-unavailable { display: inline-flex; align-items: center; gap: .5rem; color: var(--secondary-text); font-size: .85rem; }
 .project-links svg { flex-shrink: 0; }
 .project-status { align-self: flex-start; padding: .3rem .6rem; border-radius: 4px; color: #854d0e; background: #fef3c7; font-size: .75rem; }
-.experience-card { border-left: 3px solid var(--accent-color); box-shadow: none; }
 .form-status { min-height: 1.5rem; margin-top: 1rem; color: var(--secondary-text); line-height: 1.6; font-size: .9rem; }
 .form-status.success { color: #166534; }
 .form-status.error { color: #b91c1c; }
@@ -71,7 +70,6 @@
     .hero-title { font-size: clamp(2.1rem, 9vw, 3rem); letter-spacing: -1px; }
     .project-card { display: flex; }
     .project-diagram { min-height: 220px; gap: 0; }
-    .experience-card { padding: 1.5rem; }
 }
 @media (max-width: 440px) {
     .nav-container { gap: .5rem; padding-inline: 1rem; }
