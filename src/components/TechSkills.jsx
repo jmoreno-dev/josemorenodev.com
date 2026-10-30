@@ -1,64 +1,80 @@
 import { useTranslation } from 'react-i18next'
+import './TechSkills.css'
+
+const categories = [
+    {
+        id: 'backend', symbol: '</>', featured: true,
+        groups: [
+            { context: 'work', technologies: ['Java', 'Spring Boot', 'APIs REST', 'Microservices', 'Maven'] },
+            { context: 'previous', technologies: ['PHP', 'Laravel'] },
+        ],
+    },
+    {
+        id: 'databases', symbol: 'SQL',
+        groups: [
+            { context: 'work', technologies: ['MySQL'] },
+            { context: 'projects', technologies: ['PostgreSQL'] },
+        ],
+    },
+    {
+        id: 'testing', symbol: '✓',
+        groups: [
+            { context: 'projects', technologies: ['JUnit', 'Mockito', 'Jest', 'Testing Library'] },
+        ],
+    },
+    {
+        id: 'frontend', symbol: '{ }',
+        groups: [
+            { context: 'current', technologies: ['Thymeleaf', 'JavaScript'] },
+            { context: 'previous', technologies: ['Angular', 'TypeScript', 'Ionic', 'React Native'] },
+        ],
+    },
+    {
+        id: 'devops', symbol: '>_',
+        groups: [
+            { context: 'work', technologies: ['Docker', 'Kubernetes', 'Git', 'Bitbucket', 'Azure DevOps'] },
+            { context: 'projects', technologies: ['GitHub Actions'] },
+        ],
+    },
+]
 
 function TechSkills() {
     const { t } = useTranslation()
-
-    const skillCategories = [
-        {
-            id: 'backend',
-            icon: '⚙️',
-            title: 'skills.backend',
-            badges: ['Java', 'Spring Boot', 'PHP', 'Laravel']
-        },
-        {
-            id: 'databases',
-            icon: '🗄️',
-            title: 'skills.databases',
-            badges: ['MySQL', 'PostgreSQL', 'Git & GitHub', 'Bitbucket', 'Docker', 'Kubernetes', 'Azure DevOps']
-        },
-        {
-            id: 'frontend',
-            icon: '💻',
-            title: 'skills.frontend',
-            badges: ['Thymeleaf', 'JavaScript', 'Angular', 'TypeScript', 'HTML5', 'CSS3', 'Ionic']
-        },
-        {
-            id: 'tools',
-            icon: '🛠️',
-            title: 'skills.tools',
-            badges: ['IntelliJ', 'VS Code', 'Postman', 'Jira', 'Confluence']
-        },
-        {
-            id: 'softSkills',
-            icon: '🤝',
-            title: 'skills.softSkills',
-            badges: ['Problem Solving', 'Team Collaboration', 'Communication', 'Adaptability', 'Time Management', 'Analytical Thinking'],
-            extraClass: 'full-width'
-        }
-    ]
+    const technologyLabel = (name) => {
+        if (name === 'Microservices') return t('skills.microservices')
+        if (name === 'APIs REST') return t('skills.restApis')
+        return name
+    }
 
     return (
-        <section id="skills" className="tech-skills-section">
+        <section id="skills" className="skills-section" aria-labelledby="skills-title">
             <div className="section-container">
-                <h2 className="section-title">{t('skills.title')}</h2>
-                <p className="section-subtitle">
-                    {t('skills.subtitle')}
-                </p>
-                <div className="tech-grid">
-                    {skillCategories.map((category) => (
-                        <div key={category.id} className={`tech-card ${category.extraClass || ''}`.trim()}>
-                            <div className="tech-icon">{category.icon}</div>
-                            <h3 className="tech-card-title">{t(category.title)}</h3>
-                            <div className="tech-badges">
-                                {category.badges.map((badge, index) => (
-                                    <span key={index} className="tech-badge">
-                                        {badge}
-                                    </span>
+                <h2 id="skills-title" className="section-title">{t('skills.title')}</h2>
+                <p className="section-subtitle">{t('skills.subtitle')}</p>
+                <div className="skills-layout">
+                    {categories.map(({ id, symbol, featured, groups }) => (
+                        <article key={id} className={`skills-category${featured ? ' skills-featured' : ''}`}>
+                            <div className="skills-category-heading">
+                                <span className="skills-symbol" aria-hidden="true">{symbol}</span>
+                                {featured && <span className="skills-specialty">{t('skills.specialty')}</span>}
+                            </div>
+                            <h3>{t(`skills.${id}`)}</h3>
+                            <p className="skills-description">{t(`skills.${id}Description`)}</p>
+                            <div className="skills-groups">
+                                {groups.map(({ context, technologies }) => (
+                                    <div className="skills-group" key={context}>
+                                        <p className="skills-context">{t(`skills.context.${context}`)}</p>
+                                        <ul className="skills-technologies">
+                                            {technologies.map((name) => <li key={name}>{technologyLabel(name)}</li>)}
+                                        </ul>
+                                    </div>
                                 ))}
                             </div>
-                        </div>
+                            {featured && <a className="skills-experience-link" href="#experience">{t('skills.viewExperience')} <span aria-hidden="true">↗</span></a>}
+                        </article>
                     ))}
                 </div>
+                <p className="skills-evidence">{t('skills.evidence')} <a href="#projects">{t('skills.viewProjects')} <span aria-hidden="true">↗</span></a></p>
             </div>
         </section>
     )

@@ -57,12 +57,29 @@
     },
     "skills": {
         "title": "Tecnologías con las que trabajo",
-        "subtitle": "Un resumen de mis competencias tecnológicas, herramientas y habilidades con las que trabajo.",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "databases": "Datos y DevOps",
-        "tools": "Herramientas y Metodologías",
-        "softSkills": "Habilidades Blandas"
+        "subtitle": "Backend como especialidad, con experiencia en el flujo completo. Estas son las tecnologías que aplico en mi trabajo y proyectos.",
+        "specialty": "Mi especialidad",
+        "backend": "Backend Java",
+        "backendDescription": "Lógica de negocio, servicios y contratos de API. El núcleo de mi trabajo diario.",
+        "databases": "Datos y persistencia",
+        "databasesDescription": "Modelado relacional, consultas SQL y persistencia de datos.",
+        "testing": "Testing",
+        "testingDescription": "Pruebas de lógica de negocio y componentes en mis proyectos de backend y móvil.",
+        "frontend": "Frontend y móvil",
+        "frontendDescription": "Interfaces conectadas al backend, desde vistas de servidor hasta aplicaciones multiplataforma.",
+        "devops": "DevOps y herramientas",
+        "devopsDescription": "Contenedores, control de versiones y automatización de despliegues.",
+        "microservices": "Microservicios",
+        "restApis": "APIs REST",
+        "context": {
+            "work": "Experiencia profesional",
+            "current": "Actualmente · NTT DATA",
+            "previous": "Experiencia previa · Xerintel",
+            "projects": "Proyectos personales"
+        },
+        "viewExperience": "Ver experiencia",
+        "evidence": "Las tecnologías, puestas en práctica.",
+        "viewProjects": "Explorar proyectos"
     },
     "projects": {
         "title": "Mis Proyectos",

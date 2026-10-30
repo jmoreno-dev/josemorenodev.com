@@ -57,12 +57,29 @@
     },
     "skills": {
         "title": "Technologies I work with",
-        "subtitle": "A summary of my technological, tools, and competencies I work with.",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "databases": "Databases & DevOps",
-        "tools": "Tools & Methodologies",
-        "softSkills": "Soft Skills"
+        "subtitle": "Backend is my specialty, with experience across the full application flow. These are the technologies I use at work and in my projects.",
+        "specialty": "My specialty",
+        "backend": "Java backend",
+        "backendDescription": "Business logic, services and API contracts. The core of my everyday work.",
+        "databases": "Data and persistence",
+        "databasesDescription": "Relational modeling, SQL queries and data persistence.",
+        "testing": "Testing",
+        "testingDescription": "Business logic and component tests in my backend and mobile projects.",
+        "frontend": "Frontend and mobile",
+        "frontendDescription": "Interfaces connected to the backend, from server-rendered views to cross-platform applications.",
+        "devops": "DevOps and tools",
+        "devopsDescription": "Containers, version control and deployment automation.",
+        "microservices": "Microservices",
+        "restApis": "REST APIs",
+        "context": {
+            "work": "Professional experience",
+            "current": "Currently · NTT DATA",
+            "previous": "Previous experience · Xerintel",
+            "projects": "Personal projects"
+        },
+        "viewExperience": "View experience",
+        "evidence": "See these technologies in practice.",
+        "viewProjects": "Explore projects"
     },
     "projects": {
         "title": "My Projects",
