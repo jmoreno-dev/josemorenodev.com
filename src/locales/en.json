@@ -32,7 +32,7 @@
     "experience": {
         "title": "Work Experience",
         "label": "Professional Experience",
-        "subtitle": "Full stack experience across web and mobile, now specializing in Java backend development.",
+        "subtitle": "Specializing in Java and Spring Boot backend development, with experience in microservices, REST APIs and full stack development.",
         "current": "Current role",
         "items": [
             {
